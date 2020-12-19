@@ -11,6 +11,7 @@ class AllTests extends TestSuite {
         $this->TestSuite('Run All Billable Our$ tests');
         $this->addFile('login_form_test.php');
         $this->addFile('hours_test.php');
+        $this->addFile('hours_failtest.php');
     }
 }
 ?>
