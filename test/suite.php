@@ -12,7 +12,7 @@ class AllTests extends TestSuite {
         $this->addFile('login_form_test.php');
         $this->addFile('hours_test.php');
         $this->addFile('hours_failtest.php');
-        $this->addFile('hours_test1.php');
+       
         
     }
 }
