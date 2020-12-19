@@ -7,7 +7,7 @@ require_once 'simpletest/web_tester.php';
 class hoursForm extends WebTestCase {
 
 	  function testCorrectData() {
-		$this->get(VIRTUAL_PATH . '/failhours.php');
+		$this->get(VIRTUAL_PATH . '/hours.php');
 		$this->assertResponse(200);
 
         $this->setField("hours", "1.5");
